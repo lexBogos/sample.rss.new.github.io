@@ -19,27 +19,133 @@ p{
 	}
 
 
-.iva2  {
+.iva {
+	min-height: 300px;
+	text-align: center;
+	margin: 30px auto;
+	padding-top: 50px;
+	background-color: white;
+	border-radius: 20px; 
 	width: 20%;
 
 }
 .iva1 {
+    min-height: 300px;
+	text-align: center;
+	margin: 30px auto;
+	padding-top: 50px;
+	background-color: white;
+	border-radius: 20px; 
 	width: 20%;
 
 }
 
-.iva3  {
+.iva2 {
+    min-height: 300px;
+	text-align: center;
+	margin: 30px auto;
+	padding-top: 50px;
+	background-color: white;
+	border-radius: 20px; 
 	width: 20%;
 
 }
 
-.iva  {
+.iva3 {
+    min-height: 300px;
+	text-align: center;
+	margin: 30px auto;
+	padding-top: 50px;
+	background-color: white;
+	border-radius: 20px; 
 	width: 20%;
 
 }
 
 
+.newdiv{
 
+margin-right: auto;
+margin-left: auto;
+min-height:945px;
+background-color : #343D46;
+
+}
+
+
+.inp{
+
+	height:25px;
+	width:74%;
+	border-radius:10px;
+}
+
+
+.quzas{
+margin-top:50px;
+justify-content: space-between;
+width: 90%;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+
+.cont{
+
+min-width: 100%;
+margin: 0 auto;
+
+}
+
+
+.cont1{
+width: 90%;
+text-align: center;
+margin: 0 auto;
+}
+
+
+.cont2{
+position: relative;
+color: rgb( 255, 255, 255);
+background-color: rgba( 15, 98, 64, 0.8);
+top: -100px;
+}
+
+.cont2:hover { 
+	font-weight: bold;
+}
+
+.cont3{
+width:90%;
+margin: 0 auto;
+}
+
+
+.page_nums{
+color : rgb(255,205,67);
+margin-left: 46%;
+position: relative;
+top :-30px;
+width : 13%;
+}
+
+.arrow_minus{
+text-decoration: none;
+font-size: 30px;
+color: rgb(255,205,67);
+margin-left: 40%;
+padding: 10px 10px;
+}
+
+.arrow_plus{
+text-decoration: none;
+font-size: 30px;
+color: rgb(255,205,67);
+margin-left: 15%;
+padding: 10px 10px;
+}
 
 
 @media screen and (max-width: 640px) {
@@ -52,7 +158,7 @@ p{
 		display: block;
 	}
 
-	.iva2{
+	.iva{
 	width: 50%;
 	}
 
@@ -61,49 +167,34 @@ p{
 
 	}
 
-	.iva3  {
+	.iva2  {
 	width: 50%;
 
 	}
 
-	.iva {
+	.iva3 {
 	width: 50%;
 
 	}
 
+	.page_nums{
+	margin-left: 10%;
+	position: relative;
+	top : 0px;
+	width : 20%;
+	}
+
+	.arrow_plus{
+	margin-left: 15%;
+	padding: 10px 10px;
+	}
+
+	.arrow_minus{
+	margin-left: 36%;
+	padding: 10px 10px;
+	}
 
 }
 
 
 
-@media screen and (max-width: 640px) {
-
-	body {
-	background-color: blue;
-	}
-
-	div.quzas{
-		display: block;
-	}
-
-	.iva2{
-	width: 50%;
-	}
-
-	.iva1{
-	width: 50%;
-
-	}
-
-	.iva3  {
-	width: 50%;
-
-	}
-
-	.iva {
-	width: 50%;
-
-	}
-
-
-}
