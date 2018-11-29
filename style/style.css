@@ -1,0 +1,109 @@
+body {
+	background-color: #343D46;
+}
+
+input{
+	margin-top: 20px;
+	margin-right: 13%;
+	margin-left: 13%;
+}
+p{
+	word-wrap: break-word;
+}
+
+
+.quzas{
+	display: flex;
+	background-color: #343D46
+
+	}
+
+
+.iva2  {
+	width: 20%;
+
+}
+.iva1 {
+	width: 20%;
+
+}
+
+.iva3  {
+	width: 20%;
+
+}
+
+.iva  {
+	width: 20%;
+
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+	body {
+	background-color: blue;
+	}
+
+	div.quzas{
+		display: block;
+	}
+
+	.iva2{
+	width: 50%;
+	}
+
+	.iva1{
+	width: 50%;
+
+	}
+
+	.iva3  {
+	width: 50%;
+
+	}
+
+	.iva {
+	width: 50%;
+
+	}
+
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+	body {
+	background-color: blue;
+	}
+
+	div.quzas{
+		display: block;
+	}
+
+	.iva2{
+	width: 50%;
+	}
+
+	.iva1{
+	width: 50%;
+
+	}
+
+	.iva3  {
+	width: 50%;
+
+	}
+
+	.iva {
+	width: 50%;
+
+	}
+
+
+}
